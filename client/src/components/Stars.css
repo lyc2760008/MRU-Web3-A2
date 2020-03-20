@@ -1,0 +1,30 @@
+/*https://codepen.io/kunihiko_sugiura/pen/YGbmKj*/
+.area-star {
+    position:relative;
+  }
+.box-star {
+/* cursor:pointer; */
+font-size:25px;
+}
+.unselectable {
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+}
+.allList {
+margin:0;
+padding:0;
+}
+.list{
+text-decoration:none;
+display: inline-block;
+padding: 0 1px;
+font-size: 1em;
+color: #ccc;
+/*padding-left:1px;*/
+position: relative;
+text-align: center;
+transition: 0.1s all ease-in-out;
+transform: scale(0.8);
+}

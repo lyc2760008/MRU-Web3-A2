@@ -1,0 +1,204 @@
+.form {
+    font-family: arial, sans-serif;
+    display: grid;
+    width: 50%;
+    top: 0em;
+    right: 0px;
+    position: absolute; 
+
+  }
+
+.legend{
+    display: inline-block;
+    color: darkslategray;
+}
+
+.searchbar{
+  padding: 6px;
+  margin-top: 0;
+  font-size: 15px;
+  float: right;
+  clear: right;
+  margin-right: 3em;
+}
+
+.filters {
+  margin-left: 70%;
+  display: block;
+  transition: opacity 0.8s;
+  opacity: 1;
+  }
+  .filtersHide{
+    margin-left: 70%;
+    display: block;
+    transition: opacity 0.8s;
+    opacity: 0;
+  pointer-events:none;
+  }
+  .filters label, .filtersHide label{
+    font-weight: bold;
+    font-style: italic;
+    color: dimgrey;
+  }
+
+
+.btn{
+  position: relative;
+  background-color: rgb(123, 169, 214);
+  border: 0;
+  color: white;
+  padding: 10px 24px;
+  border-radius:15px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: 3em;
+  margin-right: 1em;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.btn:hover {
+  background-color: rgb(50, 123, 197);;
+  color: white;
+}
+.filterBtn{
+  position: relative;
+  background-color: rgb(123, 169, 214);
+  border: 0;
+  color: white;
+  padding: 10px 24px;
+  border-radius:15px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: 8em;
+  margin-right: 0em;
+  margin-top: -5rem;
+  transition-property: background-color;
+  transition-duration: 1.1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.filterBtn:hover {
+  background-color: rgb(50, 123, 197);;
+  color: white;
+}
+.clearBtn{
+  position: relative;
+  background-color: rgb(123, 169, 214);
+  border: 0;
+  color: white;
+  padding: 10px 24px;
+  border-radius:15px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  transition-property: background-color;
+  transition-duration: 1.1s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.clearBtn:hover {
+  background-color: rgb(50, 123, 197);;
+  color: white;
+}
+.oneLine{
+    /* text-align: center; */
+    display: inline-flexbox;
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.yearFilter {
+  margin-top: 2em;
+  /* display: inline-block; */
+  /* text-align: center; */
+}
+
+.radios {
+  text-align: left;
+  float: left;
+  margin-top: 0.5em;
+}
+
+.lables{
+    margin-top: 1px;
+}
+
+.ratingFilter{
+  margin-top: 3.5em;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+} 
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_rangeslider*/
+
+.slider:hover {
+  opacity: 1;
+}
+
+.filterIcon{
+  padding: 0.3em;
+  background-color: rgb(227, 234, 227);
+  position: relative;
+  opacity: 0.6;
+  width: 3em;
+  border-radius:15px 5px 15px 5px;
+  vertical-align: center;
+  z-index: -20;
+  text-align: center;
+}
+.filterIcon :hover{
+  cursor: pointer;
+  padding: 0.3em;
+  background-color: rgb(211, 219, 211);
+  filter: saturate(130%);
+  border-radius: 5px 5px 25px 25px;
+  width: 2em;
+}
+.filterDiv {
+  margin-left: 53em;
+}
+
+
+/* .filterContainer {
+  position: relative;
+}
+.filterIcon,
+.filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.filterIcon {
+  z-index: 10;
+} */

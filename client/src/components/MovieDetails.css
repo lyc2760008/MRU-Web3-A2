@@ -1,0 +1,148 @@
+/* .sides{
+    background-color: darkslategray;
+
+} */
+.left{
+    float:left;
+    width:20%;
+    overflow:hidden;
+    margin: 2em;
+
+}
+.left img{
+    margin-top: 2em;
+}
+.left button{
+    margin: 1em;
+}
+.left h1{
+    font-weight: bolder;
+    color: midnightblue;
+}
+.small{
+    cursor: pointer;
+
+}
+.mid{
+    float:left;
+    width:30%;
+    overflow:hidden;
+    margin-left: 0em;
+    margin-top: 4em;
+    background-color: rgb(233, 241, 241);
+    padding: 1em;
+    float: left;
+    overflow-y: scroll;
+    height:40rem;
+} 
+.spanContent{
+    color: rgb(4, 87, 87);
+}
+.mid p{
+    margin-top: 1em;
+    font: message-box;
+    color: rgb(41, 79, 79);
+}
+
+.mid ul{
+    list-style-type: upper-roman;
+}
+.mid ul p{
+    margin-left: -2em;
+}
+
+.mid ul :nth-child(2){
+    margin-top: -1em;
+}
+
+.right{
+     margin-left: 2em;
+    margin-top: 4em;
+    float:right; 
+    background:rgb(195, 219, 202); 
+    width:40%; 
+    float: left;
+    overflow-y: scroll;
+    height:40rem;
+}
+
+.table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.right ul{
+    list-style-type: none;
+}
+.right ul span{
+    margin: 1em;
+}
+
+.closeBtn{
+    float: right;
+    position: absolute;
+    right: 5em;
+    margin-top: 1.5em;
+    background-color: rgb(123, 169, 214);
+    border: 0;
+    color: white;
+    padding: 10px 24px;
+    border-radius:5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.closeBtn:hover {
+    background-color: rgb(50, 123, 197);;
+  }
+
+.addBtn{
+    clear: left;
+    position: relative;
+    background-color: rgb(123, 169, 214);
+    border: 0;
+    color: white;
+    padding: 10px 24px;
+    border-radius:15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.addBtn:hover {
+    background-color: rgb(50, 123, 197);;
+  }
+
+.table1{
+    margin-left: 0em;
+    margin-top: 1em;
+    background-color: rgb(233, 241, 241);
+    padding: 1em;
+}
+
+/* .table1 thead {
+    position: fixed;
+} */
+
+.table1 th:nth-child(1){
+    cursor: unset;
+  }
+.table1 th:nth-child(2){
+    cursor: unset;
+  }
+  .table1 th:nth-child(3){
+    cursor: unset;
+  }
+  
+  .table1 th:nth-child(1):hover{
+    background-color: unset;
+    filter: unset;
+    box-shadow: unset;
+  }
+  .table1 th:nth-child(2):hover{
+    background-color: unset;
+    filter: unset;
+    box-shadow: unset;
+  }
+  .table1 th:nth-child(3):hover{
+    background-color: unset;
+    filter: unset;
+    box-shadow: unset;
+  }
